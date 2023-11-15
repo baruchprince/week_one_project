@@ -1,11 +1,113 @@
-.App {
-  text-align: center;
+
+  @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+/* styles  for card component */
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-size: 15px
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  display: flex;
+  flex-direction: column; 
 }
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding:0;
+}
+
+.card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: left;
+  max-width: 200px;
+  margin: 0;
+  height: 350px;
+  flex: 1;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.card h2{
+  color: hsl(0, 0%, 95%);
+  text-align: left;
+}
+
+.card:nth-child(1) {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.card:nth-child(2) {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.card:nth-child(3) {
+  background-color: hsl(179, 100%, 13%);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  flex: 1;
+}
+
+.button1 {
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(31, 77%, 52%);
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 50px;
+  border-radius: 20px;
+}
+
+.button2{
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(184, 100%, 22%);
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 50px;
+  border-radius: 20px;
+}
+
+.button3 {
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(179, 100%, 13%);
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 50px;
+  border-radius: 20px;
+}
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
